@@ -1,2 +1,3 @@
 测试一下使用分支push到远程库会不会影响master
 merge fix
+--no ff
