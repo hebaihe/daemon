@@ -1,0 +1,1 @@
+好多origin都是测试的，只有origin1和origin2是成功连接上的github和gitee
