@@ -1,3 +1,4 @@
 #.c make生成的.i .o
 *.i
 *.o
+file
