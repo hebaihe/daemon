@@ -38,11 +38,16 @@ type14.也给了登录验证
 9.断点续传//emmm应用到download了，与真实百度网盘相同，断载后未下载完的file改了名字，再下载会重新下载的
 
 10.mmap(+munmmap) sendfile splice
-当一个client进程下载618M视频用时27s
-当两个client进程下载618M视频时：
-收发均用mmap   96s
-发sendfile 收splice 76s
+当一个client进程下载630M视频用时27s
+当两个client进程下载630M视频时：
+收发send+recv  70s
+收发均用mmap   60s
+发sendfile 收splice 50s
 所以我选用的sendfile+splice，三者均为0拷贝
+==================//进程池的下载有很大的进程切换的开销，效率不如线程池
+线程池对比：
+1个client下载 630M文件 29s(send+recv)
+两个client同时下载630M文件  60s（send+recv）
 
 11. 
 客户端退出
@@ -58,7 +63,7 @@ type14.也给了登录验证
 我用到了三个表，事实证明两个表并不能满足我，因为我不想当所有人把文件删除了就把server端文件删除，此时再上传就不能实现秒传，这是file表的目的
 //表都告诉你了，类型自己想一下当复习了
 user:   id(PK) name salt pwd
-dirent: id(PK) preid userid type filename fileid(FK) size ctime
+dirent: id(PK) preid userid(FK) type filename fileid(FK) size ctime
 file:   id(PK) size count md5str
 
 100.type=100为返回给客户端各种错误提示

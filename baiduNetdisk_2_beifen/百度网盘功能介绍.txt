@@ -1,0 +1,44 @@
+前面的序号就是每种命令对应的类型
+
+1.实现cd命令：
+ cd 绝对路径        cd ..         cd ./
+
+2.实现ls：        ls
+
+3.实现上传（打印进度条）：    upload  文件名
+
+4.实现下载（打印进度条）：    download  文件名
+
+5.实现删除（不能递归）：       remove  绝对路径/文件名
+
+6.实现pwd：   pwd
+
+7.实现登录验证
+sudo ./server 192.168.6.104 2000 5 不然没有访问 密码库  /etc/shadow的权限
+鸡肋：用户名 密码的输入格式为：  username luke password 123 //必须这样子的格式，不然不能成功
+
+8.日志记录
+record_log                            syslog(LOG_INFO,"wohenshuai"); 
+实际是将用户的连接请求及其他操作请求存入server本地的.log文件里面
+9.断点续传
+在下载时client先发送本地待载文件的大小，然后从文件末尾下载剩余部分
+10.mmap（增加一个munmap解除映射）
+当一个client进程下载630M视频用时27s
+当两个client进程下载630M视频时：
+收发send+recv  70s
+收发均用mmap   60s
+发sendfile 收splice 50s
+所以我选用的sendfile+splice
+==================//进程池的下载有很大的进程切换的开销，效率不如线程池
+线程池对比：
+1个client下载 630M文件 29s(send+recv)
+两个client同时下载630M文件  60s（send+recv）
+
+客户端退出： over
+
+100.返回给客户端各种错误提示
+
+
+type=1000;//1000不会进行特殊处理
+type=100;//100为接收server发来的出错信息
+等做完三期再把所有的多余打印删掉

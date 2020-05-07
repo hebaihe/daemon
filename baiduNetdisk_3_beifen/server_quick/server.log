@@ -2552,3 +2552,81 @@ xiongda   cd ..                         Tue Feb 25 11:43:42 2020
 
 xiongda   ls                            Tue Feb 25 11:43:43 2020
 
+xiongda   login success                 Mon Apr  6 18:20:29 2020
+
+xiongda   ls                            Mon Apr  6 18:20:32 2020
+
+xiongda   upload a.txt                  Mon Apr  6 18:20:50 2020
+
+xiongda   download a.txt                Mon Apr  6 18:21:18 2020
+
+xiongda   login success                 Tue Apr  7 16:23:25 2020
+
+xiongda   ls                            Tue Apr  7 16:23:26 2020
+
+xiongda   ls                            Tue Apr  7 16:23:33 2020
+
+xiongda   cd dir                        Tue Apr  7 16:23:46 2020
+
+xiongda   ls                            Tue Apr  7 16:23:51 2020
+
+xiongda   download a.txt                Tue Apr  7 16:24:15 2020
+
+xiongda   ls                            Tue Apr  7 16:24:17 2020
+
+xiongda   download b.txt                Tue Apr  7 16:24:38 2020
+
+xiongda   ls                            Tue Apr  7 16:24:40 2020
+
+xiongda   download b.txt                Tue Apr  7 16:24:51 2020
+
+xiongda   login success                 Tue Apr  7 16:25:18 2020
+
+xiongda   ls                            Tue Apr  7 16:25:19 2020
+
+xiongda   cd dir                        Tue Apr  7 16:25:21 2020
+
+xiongda   download a.txt                Tue Apr  7 16:25:25 2020
+
+xiongda   download a.txt                Tue Apr  7 16:25:32 2020
+
+xiongda   download b.txt                Tue Apr  7 16:25:45 2020
+
+xiongda   login success                 Tue Apr  7 16:45:10 2020
+
+xiongda   ls                            Tue Apr  7 16:45:11 2020
+
+xiongda   cd dir                        Tue Apr  7 16:45:13 2020
+
+xiongda   ls                            Tue Apr  7 16:45:14 2020
+
+xiongda   download a.txt                Tue Apr  7 16:45:19 2020
+
+xiongda   upload a.txt                  Tue Apr  7 16:45:25 2020
+
+xiongda   cd ..                         Tue Apr  7 16:45:30 2020
+
+xiongda   ls                            Tue Apr  7 16:45:31 2020
+
+xiongda   cd dir1                       Tue Apr  7 16:45:33 2020
+
+xiongda   ls                            Tue Apr  7 16:45:34 2020
+
+xiongda   cd ..                         Tue Apr  7 16:45:37 2020
+
+xiongda   ls                            Tue Apr  7 16:45:39 2020
+
+xiongda   cd dir                        Tue Apr  7 16:45:41 2020
+
+xiongda   ls                            Tue Apr  7 16:45:42 2020
+
+xiongda   cd ..                         Tue Apr  7 16:45:44 2020
+
+xiongda   cd dir1                       Tue Apr  7 16:45:46 2020
+
+xiongda   ls                            Tue Apr  7 16:45:46 2020
+
+xiongda   remove a.txt                  Tue Apr  7 16:46:22 2020
+
+xiongda   upload a.txt                  Tue Apr  7 16:46:26 2020
+

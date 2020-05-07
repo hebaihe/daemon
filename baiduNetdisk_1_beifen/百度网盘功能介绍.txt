@@ -1,0 +1,16 @@
+实现cd命令：
+1 cd 绝对路径       2 cd ..       3  cd ./
+
+实现pwd：   pwd
+
+实现ls：        ls
+
+实现下载（打印进度条）：    download  文件名
+	
+实现上传（打印进度条）：    upload  文件名
+
+实现删除（不能递归）：       remove  绝对路径/文件名
+
+客户端退出： over
+
+我在client发送完命令后会调用system("clear")

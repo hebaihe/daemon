@@ -47,8 +47,9 @@ int recv_file(int socketFd)
     struct timeval start, end;
     gettimeofday(&start, NULL);
     lseek(fd, 0, SEEK_END); //为实现断点续传，从文件末尾开始接数据
-/* //先做出对应大小的文件，空间换时间，发送方不需要，ftruncate，因为文件已经存在，不ftruncate的话mmap最大映射文件实际大小，没有数据就是0B
-    ftruncate(fd,fileSize);
+/* //先做出对应大小的文件，空间换时间，发送方不需要ftruncate，因为文件已经存在，不ftruncate的话mmap最大映射文件实际大小，没有数据就是0B
+   //如果不提前修改文件大小（假设只有5B），那么在超过文件大小（第6B）对用户地址空间的操作将不会修改文件。
+   ftruncate(fd,fileSize);
     char *pStart=(char*)mmap(NULL,fileSize,PROT_READ|PROT_WRITE,MAP_SHARED,fd,0);
     ERROR_CHECK(pStart,(char*)-1,"mmap");
    int ret=recvCycle(socketFd,pStart,fileSize);//拿数据

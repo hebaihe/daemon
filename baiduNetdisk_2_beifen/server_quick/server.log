@@ -1,0 +1,334 @@
+luke      login success                 Tue Feb 18 12:42:35 2020
+
+luke      ls                            Tue Feb 18 12:42:43 2020
+
+luke      pwd                           Tue Feb 18 12:42:54 2020
+
+luke      download main.o               Tue Feb 18 12:43:05 2020
+
+luke      upload client.o               Tue Feb 18 12:43:19 2020
+
+luke      remove client.o               Tue Feb 18 12:43:39 2020
+
+luke      over                          Tue Feb 18 12:43:50 2020
+
+xiaoming  login fail                    Tue Feb 18 12:44:28 2020
+
+xiaoming  login fail                    Tue Feb 18 12:45:01 2020
+
+xiaoming  login success                 Tue Feb 18 12:45:10 2020
+
+xiaoming  remove ./client.o             Tue Feb 18 12:45:26 2020
+
+xiaoming  remove ./a.txt                Tue Feb 18 12:46:06 2020
+
+xiaoming  ls                            Tue Feb 18 12:46:16 2020
+
+xiaoming  ls                            Tue Feb 18 12:46:25 2020
+
+          login fail                    Tue Feb 18 12:47:21 2020
+
+luke      login success                 Tue Feb 18 12:47:50 2020
+
+luke      upload a.txt                  Tue Feb 18 12:48:01 2020
+
+luke      remove ./a.txt                Tue Feb 18 12:48:09 2020
+
+          login fail                    Tue Feb 18 13:23:19 2020
+
+luke      login success                 Tue Feb 18 13:24:17 2020
+
+luke      download child.o              Tue Feb 18 13:24:32 2020
+
+luke      upload a.txt                  Tue Feb 18 13:24:38 2020
+
+luke      upload b.txt                  Tue Feb 18 13:24:45 2020
+
+luke      login success                 Tue Feb 18 13:27:53 2020
+
+luke      download 1.mp4                Tue Feb 18 13:28:05 2020
+
+luke      over                          Tue Feb 18 13:29:05 2020
+
+          login fail                    Tue Feb 18 13:31:46 2020
+
+          login fail                    Tue Feb 18 13:31:47 2020
+
+luke      login success                 Tue Feb 18 13:32:01 2020
+
+luke      login success                 Tue Feb 18 13:32:10 2020
+
+luke      download 1.mp4                Tue Feb 18 13:32:25 2020
+
+luke      download 1.mp4                Tue Feb 18 13:32:25 2020
+
+luke      login success                 Tue Feb 18 13:36:37 2020
+
+luke      login success                 Tue Feb 18 13:37:25 2020
+
+luke      login success                 Tue Feb 18 13:37:31 2020
+
+luke      ls                            Tue Feb 18 13:37:37 2020
+
+luke      ls                            Tue Feb 18 13:37:39 2020
+
+luke      pwd                           Tue Feb 18 13:37:42 2020
+
+luke      pwd                           Tue Feb 18 13:37:44 2020
+
+luke      download 1.mp4                Tue Feb 18 13:38:04 2020
+
+luke      download 1.mp4                Tue Feb 18 13:38:04 2020
+
+luke      login success                 Tue Feb 18 13:43:19 2020
+
+luke      login success                 Tue Feb 18 13:43:26 2020
+
+luke      login success                 Tue Feb 18 13:44:00 2020
+
+luke      login success                 Tue Feb 18 13:44:01 2020
+
+luke      download 1.mp4                Tue Feb 18 13:44:19 2020
+
+luke      download 1.mp4                Tue Feb 18 13:44:20 2020
+
+luke      login success                 Tue Feb 18 16:01:25 2020
+
+luke      download 1.mp4                Tue Feb 18 16:01:43 2020
+
+luke      over                          Tue Feb 18 16:02:51 2020
+
+luke      login success                 Tue Feb 18 16:03:36 2020
+
+luke      download 1.mp4                Tue Feb 18 16:03:53 2020
+
+luke      over                          Tue Feb 18 16:04:06 2020
+
+luke      login success                 Tue Feb 18 16:06:11 2020
+
+luke      download 1.mp4                Tue Feb 18 16:06:29 2020
+
+luke      over                          Tue Feb 18 16:16:57 2020
+
+luke      login success                 Tue Feb 18 16:48:07 2020
+
+luke      download b.txt                Tue Feb 18 16:48:15 2020
+
+luke      over                          Tue Feb 18 16:48:37 2020
+
+luke      login success                 Tue Feb 18 16:50:49 2020
+
+luke      download b.txt                Tue Feb 18 16:50:55 2020
+
+luke      over                          Tue Feb 18 16:51:04 2020
+
+luke      login success                 Tue Feb 18 16:54:27 2020
+
+luke      download b.txt                Tue Feb 18 16:54:33 2020
+
+luke      over                          Tue Feb 18 16:54:37 2020
+
+b.txt     login fail                    Tue Feb 18 16:57:34 2020
+
+luke      login success                 Tue Feb 18 16:57:56 2020
+
+luke      download b.txt                Tue Feb 18 16:58:03 2020
+
+luke      over                          Tue Feb 18 16:58:26 2020
+
+luke      login success                 Tue Feb 18 17:00:28 2020
+
+luke      download b.txt                Tue Feb 18 17:00:38 2020
+
+luke      over                          Tue Feb 18 17:01:28 2020
+
+luke      login success                 Tue Feb 18 17:02:25 2020
+
+luke      login success                 Tue Feb 18 17:02:43 2020
+
+luke      download b.txt                Tue Feb 18 17:02:49 2020
+
+luke      over                          Tue Feb 18 17:03:00 2020
+
+b.txt     login fail                    Tue Feb 18 17:06:34 2020
+
+luke      login success                 Tue Feb 18 17:06:53 2020
+
+luke      download b.txt                Tue Feb 18 17:07:08 2020
+
+luke      over                          Tue Feb 18 17:07:15 2020
+
+luke      login success                 Tue Feb 18 17:09:07 2020
+
+luke      download a.txt                Tue Feb 18 17:09:17 2020
+
+luke      over                          Tue Feb 18 17:09:35 2020
+
+luke      login success                 Tue Feb 18 17:16:48 2020
+
+luke      download a.txt                Tue Feb 18 17:16:55 2020
+
+luke      over                          Tue Feb 18 17:18:13 2020
+
+luke      login success                 Tue Feb 18 17:19:40 2020
+
+luke      download a.txt                Tue Feb 18 17:19:57 2020
+
+luke      login success                 Tue Feb 18 17:24:54 2020
+
+luke      download a.txt                Tue Feb 18 17:25:00 2020
+
+luke      over                          Tue Feb 18 17:27:18 2020
+
+luke      login success                 Tue Feb 18 17:33:57 2020
+
+luke      download a.txt                Tue Feb 18 17:34:02 2020
+
+luke      over                          Tue Feb 18 17:34:09 2020
+
+luke      login success                 Tue Feb 18 17:44:05 2020
+
+luke      download 1.mp4                Tue Feb 18 17:44:13 2020
+
+luke      over                          Tue Feb 18 17:44:39 2020
+
+luke      login success                 Tue Feb 18 17:46:13 2020
+
+luke      download 1.mp4                Tue Feb 18 17:46:20 2020
+
+luke      login success                 Tue Feb 18 17:47:04 2020
+
+luke      download 1.mp4                Tue Feb 18 17:47:12 2020
+
+luke      over                          Tue Feb 18 17:47:38 2020
+
+luke      login success                 Tue Feb 18 17:48:49 2020
+
+luke      download 1.mp4                Tue Feb 18 17:48:57 2020
+
+luke      login success                 Tue Feb 18 17:49:27 2020
+
+luke      download 1.mp4                Tue Feb 18 17:49:34 2020
+
+          login fail                    Tue Feb 18 22:03:16 2020
+
+luke      login success                 Tue Feb 18 22:03:34 2020
+
+luke      download 1.mp4                Tue Feb 18 22:04:24 2020
+
+luke      over                          Tue Feb 18 22:04:57 2020
+
+          login fail                    Tue Feb 18 22:05:32 2020
+
+          login fail                    Tue Feb 18 22:05:32 2020
+
+          login fail                    Tue Feb 18 22:05:32 2020
+
+luke      login success                 Thu Feb 20 15:09:11 2020
+
+xiongda   login fail                    Thu Apr  2 15:30:00 2020
+
+xiongda   login fail                    Thu Apr  2 15:30:29 2020
+
+xionger   login fail                    Thu Apr  2 15:30:49 2020
+
+          login fail                    Thu Apr  2 15:30:52 2020
+
+luke      login fail                    Thu Apr  2 15:33:39 2020
+
+hebaihe   login fail                    Thu Apr  2 15:38:04 2020
+
+          login fail                    Thu Apr  2 15:38:57 2020
+
+luke      login success                 Thu Apr  2 15:39:16 2020
+
+hebaihe   login fail                    Thu Apr  2 15:39:39 2020
+
+luke      login success                 Thu Apr  2 15:39:59 2020
+
+luke      ls                            Thu Apr  2 15:40:03 2020
+
+luke      download file                 Thu Apr  2 15:40:19 2020
+
+luke      download file                 Thu Apr  2 15:41:44 2020
+
+luke      download file                 Thu Apr  2 15:43:23 2020
+
+luke      download file                 Thu Apr  2 15:43:23 2020
+
+luke      download file                 Thu Apr  2 15:44:53 2020
+
+luke      download file                 Thu Apr  2 15:44:54 2020
+
+luke      download file                 Thu Apr  2 15:46:05 2020
+
+luke      download file                 Thu Apr  2 15:46:10 2020
+
+luke      login success                 Thu Apr  2 16:14:38 2020
+
+luke      upload judge.o                Thu Apr  2 16:15:21 2020
+
+luke      remove judge.o                Thu Apr  2 16:15:29 2020
+
+luke      remove judge.o                Thu Apr  2 16:15:47 2020
+
+luke      ls                            Thu Apr  2 16:15:51 2020
+
+luke      upload judge.o                Thu Apr  2 16:15:57 2020
+
+luke      remove judge.o                Thu Apr  2 16:16:30 2020
+
+          login fail                    Thu Apr  2 16:56:13 2020
+
+luke      login success                 Thu Apr  2 16:56:23 2020
+
+luke      ls                            Thu Apr  2 16:56:24 2020
+
+luke      pwd                           Thu Apr  2 16:56:25 2020
+
+luke      cd ..                         Thu Apr  2 16:56:29 2020
+
+luke      cd ./server_quick             Thu Apr  2 16:56:37 2020
+
+luke      ls                            Thu Apr  2 16:56:41 2020
+
+luke      upload child.o                Thu Apr  2 16:57:08 2020
+
+luke      cd ..                         Thu Apr  2 16:58:02 2020
+
+luke      ls                            Thu Apr  2 16:58:04 2020
+
+luke      ls                            Thu Apr  2 16:58:54 2020
+
+luke      download file                 Thu Apr  2 16:59:09 2020
+
+luke      ls                            Thu Apr  2 16:59:17 2020
+
+luke      cd ./client_quick             Thu Apr  2 16:59:38 2020
+
+luke      download file                 Thu Apr  2 16:59:44 2020
+
+luke      ls                            Thu Apr  2 17:02:27 2020
+
+luke      pwd                           Thu Apr  2 17:02:30 2020
+
+luke      login success                 Thu Apr  2 17:03:44 2020
+
+luke      download file                 Thu Apr  2 17:03:51 2020
+
+luke      login success                 Thu Apr  2 17:09:04 2020
+
+luke      download file                 Thu Apr  2 17:09:08 2020
+
+luke      login success                 Thu Apr  2 17:10:22 2020
+
+luke      download file                 Thu Apr  2 17:10:29 2020
+
+luke      login success                 Thu Apr  2 17:10:42 2020
+
+luke      download file                 Thu Apr  2 17:10:54 2020
+
+luke      login success                 Thu Apr  2 17:11:26 2020
+
+luke      download file                 Thu Apr  2 17:11:30 2020
+

@@ -1,0 +1,9 @@
+int main() {
+	int i;
+	for(i=0;i<=50;i=i+1) {
+		printf("this is circle\n");
+	}
+	Insert();
+	printf("Hello World!\n");
+	return 0;
+}
